@@ -1,4 +1,4 @@
-import "./style.css";
+import "/style.css";
 
 const menuBtn = document.querySelector(".menu-btn");
 const navbarLinks = document.querySelector(".navbar-links");
