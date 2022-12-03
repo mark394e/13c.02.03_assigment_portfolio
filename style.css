@@ -142,7 +142,8 @@ body {
 /* Desktop version */
 
 /* Header */
-header {
+header,
+.fonts-components-header {
   display: flex;
   height: 700px;
   align-items: center;
@@ -151,27 +152,41 @@ header {
   background-color: var(--color-dark);
 }
 
-.header_text {
+.header_text,
+.fonts-components-text {
   width: 40vw;
   min-width: 300px;
 }
 
-.header_text h1 {
+.header_text h1,
+.fonts-components-text h1 {
   color: var(--color-lighter);
   font-family: var(--title-font);
   font-size: 4.209rem;
 }
 
-.header_text p {
+.header_text p,
+.fonts-components-text p {
   color: var(--color-light);
   font-family: var(--bread-font);
 }
 
-.header_graphics {
+.header_graphics,
+.fonts-components-graphics {
   width: 25vw;
   height: 35vw;
   min-width: 300px;
   min-height: 300px;
+}
+
+.fonts-components-graphics img {
+  padding: 4rem 0 0 0;
+}
+
+.fonts-components-text a {
+  font-family: var(--bread-font);
+  color: var(--color-lighter);
+  text-decoration: underline;
 }
 
 /* Assignments */
